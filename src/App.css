@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.center a {
+  color: #333;
+}
+
+.pills > a {
+  border: 1px solid #333;
+  border-radius: 18px;
+  padding: 0.5rem 0.75rem !important;
+  margin: 0.75rem;
+  font-weight: 500;
+}
+
+.pills > a:hover {
+  background: rgb(66, 122, 196);
+  color: white;
+  text-decoration: none;
+  border-color: #3330;
+}
+
+.ctm-jumbotron {
+  background: url('https://specials-images.forbesimg.com/imageserve/5dbb4182d85e3000078fddae/960x0.jpg?fit=scale');
+  background-size: 100%;
+  background-position-y: 45%;
+  margin: 0 !important;
+  position: relative !important;
+  height: 40vmin;
+  width: 100%;
+  z-index: 1;
+}
+
+.ctm-jumbotron > img {
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.blur {
+  backdrop-filter: blur(8px);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

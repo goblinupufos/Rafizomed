@@ -1,0 +1,8 @@
+.home {
+    min-height: 50vh;
+    margin: 4rem 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    text-align: left;
+}
